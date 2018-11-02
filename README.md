@@ -12,7 +12,7 @@
 
 Cada rom de una playlist está compuesta por 6 lineas:
 
-* Path absoluto a la ROMT
+* Path absoluto a la ROM
 * Nombre de la ROM a mostrar
 * Path absoluto al core para cargar la ROM. Se puede usar DETECT
 * Nombre del core (deprecado)
