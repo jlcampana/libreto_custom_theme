@@ -1,6 +1,6 @@
-# Tema para Lakka
+# Tema para RetroArch Android
 
-Tema pasado en monochrome para la distribución [Lakka](http://www.lakka.tv/) [(Retroarch)](https://www.retroarch.com/)
+Tema pasado en monochrome para la [Retroarch](https://www.retroarch.com/) en  Mi Box 3 (Android TV)
 
 Este hack cambia la [fuente a Baloo Bhaijaan](https://fonts.google.com/specimen/Baloo+Bhaijaan) y añade iconos para la playlist **Cochi**
 
@@ -11,19 +11,17 @@ Este hack cambia la [fuente a Baloo Bhaijaan](https://fonts.google.com/specimen/
 * [Playlist](tmp/)
 * [Thumbnails](tmp/)
 
-## Logo de Lakka
+## Icono principal RetroArch
 
-Se ha modificado el icono de Lakka por el siguiente:
-
-![](tmp/assets/xmb/custom/png/lakka.png)
+![](RetroArch/assets/xmb/custom/png/retroarch.png)
 
 ## Icono para la playlist
 
-![](tmp/assets/xmb/custom/png/Cochi.png)
+![](RetroArch/assets/xmb/custom/png/Cochi.png)
 
 ## Icono para los juegos
-![](tmp/assets/xmb/custom/png/Cochi-content.png)
+![](RetroArch/assets/xmb/custom/png/Cochi-content.png)
 
 ## Fondo de pantalla
 
-![](tmp/assets/wallpapers/5YK43U9.jpg)
+![](RetroArch/assets/wallpapers/5YK43U9.jpg)
