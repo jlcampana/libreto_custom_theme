@@ -1,27 +1,59 @@
-# Tema para RetroArch Android (1.7.5)
+# Tema para RetroArch Android
 
-Tema pasado en monochrome para la [Retroarch](https://www.retroarch.com/) en  Mi Box 3 (Android TV)
+* Tema basado en monochrome para la distribución [Retroarch](https://www.retroarch.com/) en AndroidTV.
+* Este hack cambia la [fuente a Baloo Bhaijaan](https://fonts.google.com/specimen/Baloo+Bhaijaan) y añade iconos para la playlist **Cochi**
+* RetroArch versión 1.7.5
 
-Este hack cambia la [fuente a Baloo Bhaijaan](https://fonts.google.com/specimen/Baloo+Bhaijaan) y añade iconos para la playlist **Cochi**
+## Playlist y miniaturas
 
-## Playlist
+* [Playlist](storage/playlists/)
+* [Thumbnails](storage/thumbnails/)
 
-[Más información sobre playlist en libreto](https://docs.libretro.com/guides/roms-playlists-thumbnails/)
+Cada rom de una playlist está compuesta por 6 lineas:
 
-* [Playlist](tmp/)
-* [Thumbnails](tmp/)
+* Path absoluto a la ROM
+* Nombre de la ROM a mostrar
+* Path absoluto al core para cargar la ROM. Se puede usar DETECT
+* Nombre del core (deprecado)
+* Link a la entrada de la base de datos. Se puede usar DETECT
+* El nombre de esta playlist (con la extensión .lpl)
 
-## Icono principal RetroArch
+Ejemplo:
+
+```bash
+/storage/roms/Nintendo Entertainment System/Bubble Bobble (USA).nes
+Bubble Bobble (NES)
+/tmp/cores/nestopia_libretro.so
+Nintendo - NES / Famicom (Nestopia UE)
+D3A91B41|crc
+Nintendo - Nintendo Entertainment System.lpl
+```
+
+Las miniaturas (thumbnails) deben tener el mismo nombre que la línea 2 (Nombre de la ROM a mostrar). [Más información sobre playlist en libreto](https://docs.libretro.com/guides/roms-playlists-thumbnails/)
+
+## Iconos
+
+El formato de los iconos debe ser:
+
+* png
+* 256x256 de tamaño
+
+### Icono principal RetroArch
 
 ![](Retroarch/assets/xmb/custom/png/retroarch.png)
 
-## Icono para la playlist
+### Icono para la playlist
+
+Debe tener el mismo nombre que la playlist
 
 ![](Retroarch/assets/xmb/custom/png/Cochi.png)
 
-## Icono para los juegos
+### Icono para los juegos
+
+Debe tener el mismo nombre que la playlist+"-content.png"
+
 ![](Retroarch/assets/xmb/custom/png/Cochi-content.png)
 
-## Fondo de pantalla
+## Fondo de pantalla (opcional)
 
 ![](Retroarch/assets/wallpapers/5YK43U9.jpg)
