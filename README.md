@@ -1,29 +1,57 @@
 # Tema para Lakka (RetroArch 1.7.3)
 
-Tema pasado en monochrome para la distribución [Lakka](http://www.lakka.tv/) [(Retroarch)](https://www.retroarch.com/)
+Tema basado en monochrome para la distribución [Lakka](http://www.lakka.tv/) [(Retroarch)](https://www.retroarch.com/). Este hack cambia la [fuente a Baloo Bhaijaan](https://fonts.google.com/specimen/Baloo+Bhaijaan) y añade iconos para la playlist **Cochi**
 
-Este hack cambia la [fuente a Baloo Bhaijaan](https://fonts.google.com/specimen/Baloo+Bhaijaan) y añade iconos para la playlist **Cochi**
+## Playlist y miniaturas
 
-## Playlist
+* [Playlist](storage/playlists/Cochi.lpl)
+* [Thumbnails](storage/thumbnails/Cochi)
 
-[Más información sobre playlist en libreto](https://docs.libretro.com/guides/roms-playlists-thumbnails/)
+Cada rom de una playlist está compuesta por 6 lineas:
 
-* [Playlist](tmp/)
-* [Thumbnails](tmp/)
+* Path absoluto a la ROMT
+* Nombre de la ROM a mostrar
+* Path absoluto al core para cargar la ROM. Se puede usar DETECT
+* Nombre del core (deprecado)
+* Link a la entrada de la base de datos. Se puede usar DETECT
+* El nombre de esta playlist (con la extensión .lpl)
 
-## Logo de Lakka
+Ejemplo:
 
-Se ha modificado el icono de Lakka por el siguiente:
+```bash
+/storage/roms/Nintendo Entertainment System/Bubble Bobble (USA).nes
+Bubble Bobble (NES)
+/tmp/cores/nestopia_libretro.so
+Nintendo - NES / Famicom (Nestopia UE)
+D3A91B41|crc
+Nintendo - Nintendo Entertainment System.lpl
+```
+
+Las miniaturas (thumbnails) deben tener el mismo nombre que la línea 2 (Nombre de la ROM a mostrar). [Más información sobre playlist en libreto](https://docs.libretro.com/guides/roms-playlists-thumbnails/)
+
+## Iconos
+
+El formato de los iconos debe ser:
+
+* png
+* 256x256 de tamaño
+
+### Icono de Lakka
 
 ![](tmp/assets/xmb/custom/png/lakka.png)
 
-## Icono para la playlist
+### Icono para la playlist
+
+Debe tener el mismo nombre que la playlist
 
 ![](tmp/assets/xmb/custom/png/Cochi.png)
 
-## Icono para los juegos
+### Icono para los juegos
+
+Debe tener el mismo nombre que la playlist+"-content.png"
+
 ![](tmp/assets/xmb/custom/png/Cochi-content.png)
 
-## Fondo de pantalla
+### Fondo de pantalla
 
 ![](tmp/assets/wallpapers/5YK43U9.jpg)
