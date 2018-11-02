@@ -1,11 +1,14 @@
-# Tema para Lakka (RetroArch 1.7.3)
+# Tema para Lakka
 
-Tema basado en monochrome para la distribución [Lakka](http://www.lakka.tv/) [(Retroarch)](https://www.retroarch.com/). Este hack cambia la [fuente a Baloo Bhaijaan](https://fonts.google.com/specimen/Baloo+Bhaijaan) y añade iconos para la playlist **Cochi**
+* Tema basado en monochrome para la distribución [Lakka](http://www.lakka.tv/) [(Retroarch)](https://www.retroarch.com/).
+* Este hack cambia la [fuente a Baloo Bhaijaan](https://fonts.google.com/specimen/Baloo+Bhaijaan) y añade iconos para la playlist **Cochi**
+* RetroArch versión 1.7.3
 
 ## Playlist y miniaturas
 
-* [Playlist](storage/playlists/Cochi.lpl)
-* [Thumbnails](storage/thumbnails/Cochi)
+
+* [Playlist](storage/playlists/)
+* [Thumbnails](storage/thumbnails/)
 
 Cada rom de una playlist está compuesta por 6 lineas:
 
@@ -52,6 +55,8 @@ Debe tener el mismo nombre que la playlist+"-content.png"
 
 ![](tmp/assets/xmb/custom/png/Cochi-content.png)
 
-### Fondo de pantalla
+### Fondo de pantalla (opcional)
+
+El fondo de pantalla se configura a parte.
 
 ![](tmp/assets/wallpapers/5YK43U9.jpg)
