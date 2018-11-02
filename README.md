@@ -1,4 +1,4 @@
-# Tema para RetroArch Android
+# Tema para RetroArch Android (1.7.5)
 
 Tema pasado en monochrome para la [Retroarch](https://www.retroarch.com/) en  Mi Box 3 (Android TV)
 
@@ -13,15 +13,15 @@ Este hack cambia la [fuente a Baloo Bhaijaan](https://fonts.google.com/specimen/
 
 ## Icono principal RetroArch
 
-![](RetroArch/assets/xmb/custom/png/retroarch.png)
+![](Retroarch/assets/xmb/custom/png/retroarch.png)
 
 ## Icono para la playlist
 
-![](RetroArch/assets/xmb/custom/png/Cochi.png)
+![](Retroarch/assets/xmb/custom/png/Cochi.png)
 
 ## Icono para los juegos
-![](RetroArch/assets/xmb/custom/png/Cochi-content.png)
+![](Retroarch/assets/xmb/custom/png/Cochi-content.png)
 
 ## Fondo de pantalla
 
-![](RetroArch/assets/wallpapers/5YK43U9.jpg)
+![](Retroarch/assets/wallpapers/5YK43U9.jpg)
