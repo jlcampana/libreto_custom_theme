@@ -1,4 +1,4 @@
-# Tema para Lakka
+# Tema para Lakka (RetroArch 1.7.3)
 
 Tema pasado en monochrome para la distribución [Lakka](http://www.lakka.tv/) [(Retroarch)](https://www.retroarch.com/)
 
